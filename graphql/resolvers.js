@@ -1,5 +1,14 @@
+const hyunseok = {
+    name: "HyunSeok",
+    age: 21,
+    gender: "female"
+
+}
+
 const resolvers = {
     Query: {
-        name:() => "hyunseok"
+        person:() => hyunseok
     }
 }
+
+export default resolvers;
